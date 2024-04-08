@@ -122,3 +122,66 @@
 # NY have taxes of 7.5%, 9.5%, and 8.9% respectively.
 # Use this information to take the amount of a purchase and 
 # the corresponding state to assure that they are taxed by the right amount.
+
+# state = "TX"
+# purchase_amount = 20
+
+# if state == "CA":
+#   tax_amount = 0.075
+#   total_amount = purchase_amount*(1+tax_amount)
+#   result = "Since you are from {}, your total cost is {}".format(state, total_amount)
+# elif state == "MN":
+#   tax_amount = 0.095
+#   total_amount = purchase_amount*(1+tax_amount)
+#   result = "Since you are from {}, your total cost is {}".format(state, total_amount)
+# elif state == "NY":
+#   tax_amount = 0.089
+#   total_amount = purchase_amount*(1+tax_amount)
+#   result = "Since you are from {}, your total cost is {}".format(state, total_amount)
+# else:
+#   result = "Please enter valid state name"
+
+# print(result)
+
+
+#8. bmi calculation
+# weight = 59
+# height = 170
+# print(weight)
+# print(height)
+# if 18.5 <= weight / height**2 < 25:
+#   result = "BMI is consider 'normal'"
+# else:
+#   result = "BMI is consider 'abnormal'"
+
+# print(result)
+
+
+#9. and or not
+# is_raininig = True
+# is_sunny = True
+# if is_raininig and is_sunny:
+#   result = "Is there a rainbow"
+# elif is_raininig and (not is_sunny):
+#   result = "It's a rainy day"
+# elif is_sunny and (not is_raininig):
+#   result = "It's a sunny day"
+# elif (not is_raininig) and (not is_sunny):
+#   result = "It's a winter!"
+
+# print(result)
+  
+#10. more - and or not
+
+# location = "USA"
+# location = "CAN"
+# unsubscribed = False 
+# if (not unsubscribed) and (location == "USA" or location == "CAN"):
+#   print("Please send email")
+# else:
+#   print("Don't send email")
+
+#11.
+
+
+
